@@ -1,19 +1,19 @@
 <div align="center">
 
-<img src="./assets/hero.png" alt="AI Applyd" width="640" />
+<img src="./assets/hero.png" alt="GetMattered" width="640" />
 
-# AI Applyd
+# GetMattered
 
 **AI that actually gets your job.**
 
-The job market is rigged. The ATS kills your resume in 6 seconds, recruiters ghost, and the tools that promise to fix it either spam, hallucinate, or hide a $150 paywall. AI Applyd is the cheat code: real per-job tailoring, real submissions on Greenhouse, Lever, Ashby, SmartRecruiters, and join.com via direct API, an AI browser agent for Workday, LinkedIn Easy Apply, iCIMS, and the long tail. Every submit gets a receipt or a screenshot. Tokens refund when the run isn't your fault.
+The job market is rigged. The ATS kills your resume in 6 seconds, recruiters ghost, and the tools that promise to fix it either spam, hallucinate, or hide a $150 paywall. GetMattered is the cheat code: real per-job tailoring, real submissions on Greenhouse, Lever, Ashby, SmartRecruiters, and join.com via direct API, an AI browser agent for Workday, LinkedIn Easy Apply, iCIMS, and the long tail. Every submit gets a receipt or a screenshot. Tokens refund when the run isn't your fault.
 
-[![Live](https://img.shields.io/badge/live-aiapplyd.com-orange)](https://aiapplyd.com)
+[![Live](https://img.shields.io/badge/live-getmattered.com-orange)](https://getmattered.com)
 [![License](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
-[![Pricing](https://img.shields.io/badge/free%20tier-20K%20tokens-green)](https://aiapplyd.com/pricing)
-[![Submission Wall](https://img.shields.io/badge/proof-screenshot%20verified-lightgrey)](https://aiapplyd.com/proof)
+[![Pricing](https://img.shields.io/badge/free%20tier-20K%20tokens-green)](https://getmattered.com/pricing)
+[![Submission Wall](https://img.shields.io/badge/proof-screenshot%20verified-lightgrey)](https://getmattered.com/proof)
 
-[**Try it free**](https://aiapplyd.com) - [**Pricing**](https://aiapplyd.com/pricing) - [**Submission Wall**](https://aiapplyd.com/proof) - [**MCP server**](https://mcp.aiapplyd.com) - [**Blog**](https://aiapplyd.com/blog)
+[**Try it free**](https://getmattered.com) - [**Pricing**](https://getmattered.com/pricing) - [**Submission Wall**](https://getmattered.com/proof) - [**MCP server**](https://mcp.getmattered.com) - [**Blog**](https://getmattered.com/blog)
 
 </div>
 
@@ -23,7 +23,7 @@ The job market is rigged. The ATS kills your resume in 6 seconds, recruiters gho
 
 I lost my job in February. Three months of runway, a working laptop, and 47 hand-written applications by Sunday afternoon. By the 30th cover letter I was a zombie typing "I am excited to apply for this opportunity at your great company" while a real human read none of it.
 
-So I wrote a Chrome extension that filled in forms based on a JSON resume. The 20 jobs the bot applied to got 3 callbacks. The 47 I'd done by hand got 1. That ratio is what AI Applyd is now.
+So I wrote a Chrome extension that filled in forms based on a JSON resume. The 20 jobs the bot applied to got 3 callbacks. The 47 I'd done by hand got 1. That ratio is what GetMattered is now.
 
 Every day you wait, someone less qualified gets your job. The applying-while-you-sleep part is the gimmick. The real product is a filter: you say yes to everything that fits, and only spend time on the conversations that come back.
 
@@ -35,7 +35,7 @@ Every day you wait, someone less qualified gets your job. The applying-while-you
 
 ![dashboard demo](./assets/dashboard.gif)
 
-Live product: **[aiapplyd.com](https://aiapplyd.com)** - free signup, 20K tokens funds one full end-to-end auto-apply.
+Live product: **[getmattered.com](https://getmattered.com)** - free signup, 20K tokens funds one full end-to-end auto-apply.
 
 ---
 
@@ -50,8 +50,8 @@ Application tracker (Teal Plus). ATS score (Jobscan $50). AI cover letters (Simp
 - [x] **Cover letter generation** - tailored per job, references the actual posting, written in your voice
 - [x] **Interview prep** - company-specific questions pulled from real interview reports, practice answers grounded in your resume
 - [x] **List-view application tracker** - receipts list, not a kanban. Stages: Applied, Callback, Phone Screen, Interview, Offered, Rejected, No Response. Every row has the screener answers we submitted, the match score at the time, the proof screenshot or ATS receipt, and a clear failure reason if a run didn't complete
-- [x] **Submission proof on every apply** - browser-driven runs save a screenshot of the confirmation page. Direct-API runs save a structured receipt. Public anonymised wall at [/proof](https://aiapplyd.com/proof)
-- [x] **Public MCP server** - connect Claude Desktop, Claude Code, Cursor, or ChatGPT and use the tools directly in your AI client ([mcp.aiapplyd.com](https://mcp.aiapplyd.com))
+- [x] **Submission proof on every apply** - browser-driven runs save a screenshot of the confirmation page. Direct-API runs save a structured receipt. Public anonymised wall at [/proof](https://getmattered.com/proof)
+- [x] **Public MCP server** - connect Claude Desktop, Claude Code, Cursor, or ChatGPT and use the tools directly in your AI client ([mcp.getmattered.com](https://mcp.getmattered.com))
 - [x] **Token refunds on non-user-fault failures** - if a run dies because the page was unreadable, the ATS was down, or bot detection blocked the session, tokens go back to your balance automatically
 - [x] **Per-session cost guard** - per-platform spend caps (Workday $1.50, Lever / Ashby $0.80, generic $1.00). Stuck sessions get killed before they bleed money
 - [x] **Anti-fabrication guardrails** - the system refuses to invent job titles, certifications, metrics, or skills not on your resume. If a JD demands something you don't have, the tailor flow surfaces it as a gap instead of forging it
@@ -85,7 +85,7 @@ Application tracker (Teal Plus). ATS score (Jobscan $50). AI cover letters (Simp
                         emails matched back to the application
 ```
 
-A bad auto-apply tool keeps clicking buttons in a loop until it submits something broken. A good one knows when to stop. AI Applyd has a per-session cost guard, a stuck-loop fingerprint detector, an off-origin navigation guard, and a confirmation verifier that needs at least 2 of 3 success signals (URL change, success keyword, hidden CSRF state) before it marks an apply as sent.
+A bad auto-apply tool keeps clicking buttons in a loop until it submits something broken. A good one knows when to stop. GetMattered has a per-session cost guard, a stuck-loop fingerprint detector, an off-origin navigation guard, and a confirmation verifier that needs at least 2 of 3 success signals (URL change, success keyword, hidden CSRF state) before it marks an apply as sent.
 
 ---
 
@@ -101,7 +101,7 @@ Monthly only. No annual lock-in. No upsell on auto-apply credits hidden behind t
 
 Per-application math at full utilization: **$0.39** on Hired in 30, **$0.26** on Hired Yesterday.
 
-[Full pricing](https://aiapplyd.com/pricing)
+[Full pricing](https://getmattered.com/pricing)
 
 ---
 
@@ -118,7 +118,7 @@ Built solo, on Cloudflare's edge.
 - **Email**: React Email + Resend
 - **Payments**: Stripe
 - **Analytics + replay + flags**: PostHog
-- **MCP**: public Cloudflare Worker at mcp.aiapplyd.com
+- **MCP**: public Cloudflare Worker at mcp.getmattered.com
 
 No SaaS bills above the Cloudflare base. The whole platform runs on the free tiers of every dependency I could keep on a free tier.
 
@@ -128,7 +128,7 @@ No SaaS bills above the Cloudflare base. The whole platform runs on the free tie
 
 Five competitors, real review data, no pricing-only swipes. Sources: Trustpilot, Reddit, BBB, Chrome Web Store. Full breakdown in [docs/launch/competitor-honest-audit.md](https://github.com/aiapplyd/aiapplyd/blob/main/docs/launch/competitor-honest-audit.md).
 
-|  | AI Applyd | LazyApply | Simplify | Teal | JobCopilot | Huntr |
+|  | GetMattered | LazyApply | Simplify | Teal | JobCopilot | Huntr |
 |--|-----------|-----------|----------|------|------------|-------|
 | **Price (monthly)** | $39 | $99-249 lifetime upfront | $39.99 | $29 | $29.90-39.90 | $40 |
 | **Real auto-apply submission** | Yes (5 direct-API + browser agent) | Indeed plugin fails captcha. Only applies to job 1 per page | Autofill only, you click apply | None | Yes, but surfaces fraudulent postings | Autofill only |
@@ -145,7 +145,7 @@ Five competitors, real review data, no pricing-only swipes. Sources: Trustpilot,
 ## FAQ
 
 **Will I get banned from LinkedIn?**
-Unlikely. The tools that get accounts banned inject scripts into the LinkedIn page from a Chrome extension. AI Applyd does not do that. When a job lives on the company's own ATS we route through Greenhouse, Lever, Ashby, SmartRecruiters, or join.com directly. LinkedIn Easy Apply runs through the AI browser agent on Browserbase with residential proxies and human pacing.
+Unlikely. The tools that get accounts banned inject scripts into the LinkedIn page from a Chrome extension. GetMattered does not do that. When a job lives on the company's own ATS we route through Greenhouse, Lever, Ashby, SmartRecruiters, or join.com directly. LinkedIn Easy Apply runs through the AI browser agent on Browserbase with residential proxies and human pacing.
 
 **Is there really a free tier?**
 Yes. Free Job Seeker plan, no credit card. 20K tokens at signup is enough for one full auto-apply end-to-end so you can see what it actually does before paying. 10 ATS scores, 5 resume tailors, 5 cover letters per month on top.
@@ -154,7 +154,7 @@ Yes. Free Job Seeker plan, no credit card. 20K tokens at signup is enough for on
 Only if you flip Autopilot on. Default mode is manual approval, you preview each application before it sends. About 60% of users stay on manual for the first week then turn it off.
 
 **Where do you store my resume?**
-Cloudflare D1, encrypted in transit (TLS / HTTPS) and at rest using Cloudflare D1's default at-rest encryption. We do not sell your data. Your resumes, jobs, and application content are never used to train AI Applyd's own models. One-click delete from your dashboard wipes everything.
+Cloudflare D1, encrypted in transit (TLS / HTTPS) and at rest using Cloudflare D1's default at-rest encryption. We do not sell your data. Your resumes, jobs, and application content are never used to train GetMattered's own models. One-click delete from your dashboard wipes everything.
 
 **Why monthly only, no annual?**
 Because the worst version of this product would be one that gets you locked in for a year and then doesn't have to keep delivering. If we stop being useful you should be able to leave next month.
@@ -171,11 +171,11 @@ No. The web app does everything. Submissions run on our infrastructure (Browserb
 
 ## Links
 
-- Live product: [aiapplyd.com](https://aiapplyd.com)
-- Pricing: [aiapplyd.com/pricing](https://aiapplyd.com/pricing)
-- Submission wall: [aiapplyd.com/proof](https://aiapplyd.com/proof)
-- MCP server: [mcp.aiapplyd.com](https://mcp.aiapplyd.com)
-- Blog: [aiapplyd.com/blog](https://aiapplyd.com/blog)
+- Live product: [getmattered.com](https://getmattered.com)
+- Pricing: [getmattered.com/pricing](https://getmattered.com/pricing)
+- Submission wall: [getmattered.com/proof](https://getmattered.com/proof)
+- MCP server: [mcp.getmattered.com](https://mcp.getmattered.com)
+- Blog: [getmattered.com/blog](https://getmattered.com/blog)
 - Twitter / X: [@aiapplydHQ](https://x.com/aiapplydHQ)
 - LinkedIn: [linkedin.com/company/aiapplyd](https://www.linkedin.com/company/aiapplyd/)
 - Discord: [discord.gg/9PZ2V8DNM5](https://discord.gg/9PZ2V8DNM5)
