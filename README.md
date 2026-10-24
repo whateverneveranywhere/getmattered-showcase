@@ -176,8 +176,8 @@ No. The web app does everything. Submissions run on our infrastructure (Browserb
 - Submission wall: [getmattered.com/proof](https://getmattered.com/proof)
 - MCP server: [mcp.getmattered.com](https://mcp.getmattered.com)
 - Blog: [getmattered.com/blog](https://getmattered.com/blog)
-- Twitter / X: [@aiapplydHQ](https://x.com/aiapplydHQ)
-- LinkedIn: [linkedin.com/company/aiapplyd](https://www.linkedin.com/company/aiapplyd/)
+- Twitter / X: [@getmattered](https://x.com/getmattered)
+- LinkedIn: [linkedin.com/company/getmattered](https://www.linkedin.com/company/getmattered/)
 - Discord: [discord.gg/9PZ2V8DNM5](https://discord.gg/9PZ2V8DNM5)
 - Founder: [@firstexhotic](https://x.com/firstexhotic)
 
