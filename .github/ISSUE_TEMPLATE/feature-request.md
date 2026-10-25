@@ -1,6 +1,6 @@
 ---
 name: Feature request
-about: Suggest a feature for AI Applyd
+about: Suggest a feature for GetMattered
 title: "[feature] "
 labels: enhancement
 assignees: ''

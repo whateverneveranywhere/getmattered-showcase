@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Something on aiapplyd.com is broken
+about: Something on getmattered.com is broken
 title: "[bug] "
 labels: bug
 assignees: ''

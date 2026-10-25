@@ -1,6 +1,6 @@
 # Security
 
-How AI Applyd handles your data and how to report a vulnerability.
+How GetMattered handles your data and how to report a vulnerability.
 
 ---
 
@@ -49,7 +49,7 @@ We do not soft-archive. When you delete, the row is gone.
 
 ## Refunds and billing
 
-Refunds are case-by-case. No blanket 30-day money-back. If something legitimately broke on our side, email support@aiapplyd.com and we fix it or refund the cycle. Token refunds on non-user-fault failures (page unreadable, ATS down, bot detection block) are automatic and land back in your balance the same session.
+Refunds are case-by-case. No blanket 30-day money-back. If something legitimately broke on our side, email support@getmattered.com and we fix it or refund the cycle. Token refunds on non-user-fault failures (page unreadable, ATS down, bot detection block) are automatic and land back in your balance the same session.
 
 ---
 
@@ -80,7 +80,7 @@ No 30-day stalling. No "are you sure?" guilt trips. No buried setting. No retent
 
 ## AI training
 
-We do not sell your data. Your resumes, jobs, and application content are never used to train AI Applyd's own models.
+We do not sell your data. Your resumes, jobs, and application content are never used to train GetMattered's own models.
 
 - OpenRouter (our AI gateway) is called via API, not fine-tuned on your data
 - Models we use (Gemini 2.5 Flash, Claude Haiku, etc.) are called via API, not fine-tuned on your data
@@ -96,13 +96,13 @@ Most "free" career AI tools bury training rights in paragraph 14 of their ToS. R
 - **SOC 2**: not yet certified, planned for 2026
 - **HIPAA**: not in scope (we don't handle health data)
 
-For data subject requests: privacy@aiapplyd.com.
+For data subject requests: privacy@getmattered.com.
 
 ---
 
 ## Reporting a vulnerability
 
-Email **security@aiapplyd.com** with:
+Email **security@getmattered.com** with:
 - A description of the vulnerability
 - Steps to reproduce
 - Optional: a proof-of-concept

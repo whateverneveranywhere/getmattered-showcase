@@ -126,7 +126,7 @@ No SaaS bills above the Cloudflare base. The whole platform runs on the free tie
 
 ## How it compares
 
-Five competitors, real review data, no pricing-only swipes. Sources: Trustpilot, Reddit, BBB, Chrome Web Store. Full breakdown in [docs/launch/competitor-honest-audit.md](https://github.com/aiapplyd/aiapplyd/blob/main/docs/launch/competitor-honest-audit.md).
+Five competitors, real review data, no pricing-only swipes. Sources: Trustpilot, Reddit, BBB, Chrome Web Store.
 
 |  | GetMattered | LazyApply | Simplify | Teal | JobCopilot | Huntr |
 |--|-----------|-----------|----------|------|------------|-------|

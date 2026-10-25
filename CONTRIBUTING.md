@@ -8,11 +8,11 @@ What you can contribute here:
 
 ## Bug reports for the public site
 
-Found something broken on aiapplyd.com? Open an issue.
+Found something broken on getmattered.com? Open an issue.
 
 - Use the [bug report template](.github/ISSUE_TEMPLATE/bug-report.md)
 - Include: page URL, what you expected, what happened, browser + OS, screenshot if relevant
-- For payment / account issues, email hello@aiapplyd.com instead, faster path
+- For payment / account issues, email hello@getmattered.com instead, faster path
 
 ---
 
@@ -71,4 +71,4 @@ When you write in this repo:
 
 Be civil. Don't be a jerk to other contributors. Disagreements about the product are welcome, ad hominem isn't.
 
-If someone violates this, email hello@aiapplyd.com.
+If someone violates this, email hello@getmattered.com.

@@ -8,8 +8,8 @@ This is the public-facing roadmap. For bug reports and feature requests see [CON
 
 ## Shipped (last 90 days)
 
-- **Public submission wall** at [/proof](https://aiapplyd.com/proof). Browser-driven submissions get a proof screenshot, direct-API submissions (Greenhouse, Lever, Ashby, SmartRecruiters, join.com) get a structured submission receipt. All entries are anonymised at the SQL level (no user ID, no company, no job URL leak), then streamed to a public page. First competitor doing this.
-- **Public MCP server** at mcp.aiapplyd.com. ATS scoring, job analysis, cover letter generation, auto-apply, resume translation, all callable from Claude Desktop / Claude Code / Cursor.
+- **Public submission wall** at [/proof](https://getmattered.com/proof). Browser-driven submissions get a proof screenshot, direct-API submissions (Greenhouse, Lever, Ashby, SmartRecruiters, join.com) get a structured submission receipt. All entries are anonymised at the SQL level (no user ID, no company, no job URL leak), then streamed to a public page. First competitor doing this.
+- **Public MCP server** at mcp.getmattered.com. ATS scoring, job analysis, cover letter generation, auto-apply, resume translation, all callable from Claude Desktop / Claude Code / Cursor.
 - **Cost-aware auto-apply guards**. Per-session cost ceiling that's progress-aware (kills only when cost > soft ceiling AND 3+ consecutive zero-progress steps), per-platform soft caps (Workday $1.50, Lever $0.80, generic $1.00), absolute hard cap at 2x soft. Replaced flat $0.50 ceiling that was killing legitimate runs mid-fill.
 - **Stuck-loop fingerprint detector**. Auto-apply agent now recognizes when it's clicking the same button in a loop and bails with a clean error code instead of burning tokens.
 - **Confirmation verifier**. Every successful submit needs at least 2 of 3 success signals (URL change, success keyword, hidden CSRF state) before it counts as sent. No more false positives.
@@ -38,7 +38,7 @@ This is the public-facing roadmap. For bug reports and feature requests see [CON
 - **Localized job search for non-US markets**. Today Indeed / LinkedIn / Google Jobs work in any market. The matching is US-centric. Non-US users want titles, salary bands, and seniority levels normalized for their geography.
 - **Resume A/B testing**. Send two resume variants to similar roles, compare callback rates after 2 weeks. The data already lives in the tracker, just needs the UI.
 - **Recruiter outreach mode**. Cold-email mode for the inverse direction: when a recruiter sees your profile and reaches out, draft a reply.
-- **Public roadmap voting**. Ship a /roadmap page on aiapplyd.com where users can upvote upcoming features. Right now it's just my Notion.
+- **Public roadmap voting**. Ship a /roadmap page on getmattered.com where users can upvote upcoming features. Right now it's just my Notion.
 
 ---
 
@@ -46,7 +46,7 @@ This is the public-facing roadmap. For bug reports and feature requests see [CON
 
 These are open questions. Tell me what you'd want.
 
-- **Team / agency mode**. Career coaches and recruiters using AI Applyd on behalf of their clients. Multi-tenant, billing per seat. Real demand exists. Building it would mean a different product.
+- **Team / agency mode**. Career coaches and recruiters using GetMattered on behalf of their clients. Multi-tenant, billing per seat. Real demand exists. Building it would mean a different product.
 - **Insider-contact email finder**. JobRight ships this and it's the one feature their users genuinely praise. For roles where one warm intro beats 50 cold applications, this is the right tool.
 - **Recruiter outreach mode**. Cold-email mode for the inverse direction: when a recruiter sees your profile and reaches out, draft a reply.
 - **Job alerts via Telegram / Discord / SMS**. Right now alerts go via email. Could route them to chat channels for the people who treat their inbox like a graveyard.
@@ -60,6 +60,6 @@ These are open questions. Tell me what you'd want.
 
 - **Annual plans**. Monthly only by design. If we stop being useful you should be able to leave next month.
 - **Free unlimited auto-apply**. Costs real money per submit. Would attract spammers and ruin the ban-risk math for legitimate users.
-- **Script-injection inside LinkedIn's UI**. That's the pattern that triggers bans. AI Applyd handles LinkedIn Easy Apply via the AI browser agent on Browserbase with residential proxies and human-pacing, not by injecting scripts into LinkedIn's page.
+- **Script-injection inside LinkedIn's UI**. That's the pattern that triggers bans. GetMattered handles LinkedIn Easy Apply via the AI browser agent on Browserbase with residential proxies and human-pacing, not by injecting scripts into LinkedIn's page.
 - **Selling user data**. Ever.
-- **Training AI Applyd's own models on your resumes**. Ever. We do not sell your data.
+- **Training GetMattered's own models on your resumes**. Ever. We do not sell your data.

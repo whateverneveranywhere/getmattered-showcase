@@ -14,7 +14,7 @@ User-facing product updates. Internal infra and refactors are not listed.
 - **2026-04-23** Stuck-loop fingerprint detector live. Auto-apply agent now bails with a clean error when it spots a click loop instead of burning tokens.
 - **2026-04-20** Confirmation verifier shipped. Every successful submit needs at least 2 of 3 success signals (URL change, success keyword, hidden CSRF state) before it counts as sent.
 - **2026-04-15** Resume PDF + DOCX export with ATS-aware formatting. No images or 2-column layouts that break parsers.
-- **2026-04-10** Public MCP server at mcp.aiapplyd.com. Connect Claude Desktop, Claude Code, or Cursor and use the tools directly.
+- **2026-04-10** Public MCP server at mcp.getmattered.com. Connect Claude Desktop, Claude Code, or Cursor and use the tools directly.
 - **2026-04-05** Direct ATS API integrations for Personio, SmartRecruiters, Workable, Recruitee, Teamtailor, Pinpoint, Comeet, JazzHR, Breezy. Now 14 direct ATS integrations total.
 - **2026-04-01** Chrome extension published on Web Store. One-click apply from any job page.
 

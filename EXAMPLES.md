@@ -6,7 +6,7 @@ Real-world output, anonymised. All names, emails, and companies are fake. Number
 
 ## 1. Before / After ATS score
 
-Same resume, same job description (Senior Backend Engineer at a Series-B fintech). Score from AI Applyd's `/tools/ats-score`.
+Same resume, same job description (Senior Backend Engineer at a Series-B fintech). Score from GetMattered's `/tools/ats-score`.
 
 ### Before
 
@@ -147,14 +147,14 @@ For each question the system also generates:
 
 ## 5. MCP server: Claude Desktop usage
 
-Once you've added AI Applyd to your `claude_desktop_config.json`:
+Once you've added GetMattered to your `claude_desktop_config.json`:
 
 ```json
 {
   "mcpServers": {
-    "ai-applyd": {
+    "getmattered": {
       "command": "npx",
-      "args": ["mcp-remote", "https://mcp.aiapplyd.com/sse"]
+      "args": ["mcp-remote", "https://mcp.getmattered.com/sse"]
     }
   }
 }
