@@ -10,7 +10,7 @@ The job market is rigged. The ATS kills your resume in 6 seconds, recruiters gho
 
 [![Live](https://img.shields.io/badge/live-getmattered.com-orange)](https://getmattered.com)
 [![License](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
-[![Pricing](https://img.shields.io/badge/free%20tier-20K%20tokens-green)](https://getmattered.com/pricing)
+[![Pricing](https://img.shields.io/badge/free%20tier-10K%20tokens-green)](https://getmattered.com/pricing)
 [![Submission Wall](https://img.shields.io/badge/proof-screenshot%20verified-lightgrey)](https://getmattered.com/proof)
 
 [**Try it free**](https://getmattered.com) - [**Pricing**](https://getmattered.com/pricing) - [**Submission Wall**](https://getmattered.com/proof) - [**MCP server**](https://mcp.getmattered.com) - [**Blog**](https://getmattered.com/blog)
@@ -35,7 +35,7 @@ Every day you wait, someone less qualified gets your job. The applying-while-you
 
 ![dashboard demo](./assets/dashboard.gif)
 
-Live product: **[getmattered.com](https://getmattered.com)** - free signup, 20K tokens funds one full end-to-end auto-apply.
+Live product: **[getmattered.com](https://getmattered.com)** - free signup with 10K starter tokens; paid plans from $21.99 a week send the applications for you.
 
 ---
 
@@ -91,15 +91,17 @@ A bad auto-apply tool keeps clicking buttons in a loop until it submits somethin
 
 ## Pricing
 
-Monthly only. No annual lock-in. No upsell on auto-apply credits hidden behind the subscription.
+Bill weekly or monthly. No annual plan, no per-application surcharge.
 
-| Plan | Price | AI applies | ATS scores | Resume tailors | Tokens |
-|------|-------|------------|------------|----------------|--------|
-| **Job Seeker** | Free | 1 (taste-test) | 10 / month | 5 / month | 20K signup |
-| **Hired in 30** | $39 / mo | 100 / month, 15 / day | Unlimited | Unlimited | 7M / mo |
-| **Hired Yesterday** | $79 / mo | 300 / month, 50 / day | Unlimited | Unlimited | 15M / mo |
+| Plan | Weekly | Monthly | Applications we send (estimate) | Tokens |
+|------|--------|---------|---------------------------------|--------|
+| **Job Seeker** | Free | Free | None: sending is the paid part | 10K starter tokens |
+| **Hired in 30** | $21.99 / week | $38.99 / month | about 107 / week, about 215 / month | 2.8M / week, 5.6M / month |
+| **Hired Yesterday** | $37.99 / week | $89.99 / month | about 184 / week, about 500 / month, plus Auto Apply on autopilot | 4.8M / week, 13M / month |
 
-Per-application math at full utilization: **$0.39** on Hired in 30, **$0.26** on Hired Yesterday.
+Free also gets 5 resume rewrites, 5 cover letters and 20 interview preps a month, and unlimited job matching. Paid plans make resumes, letters and prep unlimited.
+
+Estimated cost per application at full use: about **$0.21** on weekly billing and about **$0.18** on monthly billing, on both plans.
 
 [Full pricing](https://getmattered.com/pricing)
 
@@ -130,7 +132,7 @@ Five competitors, real review data, no pricing-only swipes. Sources: Trustpilot,
 
 |  | GetMattered | LazyApply | Simplify | Teal | JobCopilot | Huntr |
 |--|-----------|-----------|----------|------|------------|-------|
-| **Price (monthly)** | $39 | $99-249 lifetime upfront | $39.99 | $29 | $29.90-39.90 | $40 |
+| **Price (monthly)** | $38.99 | $99-249 lifetime upfront | $39.99 | $29 | $29.90-39.90 | $40 |
 | **Real auto-apply submission** | Yes (5 direct-API + browser agent) | Indeed plugin fails captcha. Only applies to job 1 per page | Autofill only, you click apply | None | Yes, but surfaces fraudulent postings | Autofill only |
 | **ATS score before applying** | Yes | No | No | Yes | No | Yes |
 | **Resume hallucination guards** | Yes (anti-fabrication) | Spams same resume | Heavy editing needed on senior roles | Misspells last names, hallucinates skills | Reddit-flagged fabrications | Misses industry keywords |
@@ -148,7 +150,7 @@ Five competitors, real review data, no pricing-only swipes. Sources: Trustpilot,
 Unlikely. The tools that get accounts banned inject scripts into the LinkedIn page from a Chrome extension. GetMattered does not do that. When a job lives on the company's own ATS we route through Greenhouse, Lever, Ashby, SmartRecruiters, or join.com directly. LinkedIn Easy Apply runs through the AI browser agent on Browserbase with residential proxies and human pacing.
 
 **Is there really a free tier?**
-Yes. Free Job Seeker plan, no credit card. 20K tokens at signup is enough for one full auto-apply end-to-end so you can see what it actually does before paying. 10 ATS scores, 5 resume tailors, 5 cover letters per month on top.
+Yes. Free Job Seeker plan, no credit card. You get 10K starter tokens, 5 resume rewrites, 5 cover letters and 20 interview preps a month, and unlimited job matching. Sending applications for you starts on Hired in 30.
 
 **Does it apply to jobs without me knowing?**
 Only if you flip Autopilot on. Default mode is manual approval, you preview each application before it sends. About 60% of users stay on manual for the first week then turn it off.

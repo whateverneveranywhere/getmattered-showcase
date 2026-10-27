@@ -9,17 +9,17 @@ If something here is wrong, [open an issue](./CONTRIBUTING.md) or email hello@ge
 ## Pricing
 
 ### Is there a free tier?
-Yes. Free Job Seeker plan, no credit card. 20K signup tokens funds one full auto-apply end-to-end, plus 10 ATS scores per month, 5 resume tailors per month, and 5 cover letters per month.
+Yes. Free Job Seeker plan, no credit card. You get 10K starter tokens, 5 resume rewrites, 5 cover letters and 20 interview preps a month, tracking for 25 jobs, and unlimited job matching. Sending applications for you is the paid part.
 
 ### Can I cancel anytime?
-Yes. One click. Access stays until the end of the month you already paid for. No retention call, no exit survey, no "are you sure" five times.
+Yes. One click. Access stays until the end of the week or month you already paid for. No retention call, no exit survey, no "are you sure" five times.
 
 ### How does usage work?
-Every AI action spends tokens from your monthly balance. Free gets 20K tokens on signup, enough for one full auto-apply so you can see it actually submit a job. Hired in 30 refills 7M tokens every month, Hired Yesterday refills 15M. Failed runs that aren't your fault auto-refund the tokens. You only get charged for stuff that worked.
+Every AI action spends tokens from your balance. Free gets 10K starter tokens on signup. Hired in 30 refills 2.8M tokens a week on weekly billing or 5.6M a month on monthly billing. Hired Yesterday refills 4.8M a week or 13M a month. Failed runs that aren't your fault auto-refund the tokens. You only get charged for stuff that worked.
 
 ### How many tokens does each action cost?
 Approximate cost per action (depends on job description length and model):
-- Full auto-apply (prepare + submit + proof screenshot when applicable): ~30,000 tokens
+- Full auto-apply (prepare + submit + proof screenshot when applicable): ~26,000 tokens
 - ATS resume score: ~1,200 tokens
 - Cover letter: ~1,200 tokens
 - Tailored resume rewrite: ~1,600 tokens
@@ -34,16 +34,16 @@ Buy a one-time top-up from the sidebar or upgrade so the next refill resets your
 No blanket 30-day refund policy. If something legitimately broke on our side, email support and we'll fix it or refund the cycle. We do not have a script for hiding behind "all sales final" while the service is down. Token refunds on non-user-fault failures (page unreadable, ATS down, bot detection block) are automatic.
 
 ### Is there a contract?
-No. Monthly billing, cancel from the billing portal, no annual lock-in, no discount-for-soul-trade.
+No. Weekly or monthly billing, cancel from the billing portal, no annual lock-in, no discount-for-soul-trade.
 
 ### Can I switch plans?
 Yes. Upgrade or downgrade anytime. Stripe prorates it. No "wait until next cycle" dance.
 
 ### What's the difference between Hired in 30 and Hired Yesterday?
-Hired in 30 ($39/mo) gives you 7M tokens, ~100 AI auto-applies (15/day pace), unlimited ATS scores, tailoring, cover letters, interview prep. Hired Yesterday ($79/mo) gives you 15M tokens, ~300 applies (50/day), priority queue. Pick based on how fast last week was the deadline.
+Hired in 30 ($21.99/week or $38.99/month) sends about 107 applications a week or about 215 a month, at up to 15 a day, with unlimited resumes, cover letters and interview prep. Hired Yesterday ($37.99/week or $89.99/month) sends about 184 a week or about 500 a month, at up to 50 a day, and adds Auto Apply on autopilot: we apply to your best new matches daily. Pick based on how fast last week was the deadline.
 
 ### What does GetMattered do for free that competitors charge for?
-Jobscan charges $50/month to score one resume against one job. GetMattered does 10 of those a month for $0. Teal charges $29/month for resume building. Free tier here builds and tailors 5 resumes a month for $0. Plus you get one full auto-apply submission, free, so you can confirm we actually submit jobs before you pay anything.
+Jobscan charges $50/month to score one resume against one job. GetMattered does 10 of those a month for $0. Teal charges $29/month for resume building. Free tier here builds and tailors 5 resumes a month for $0.
 
 ### How do I know my application actually went through?
 Every submission lands in your dashboard with proof. On Workday, LinkedIn, iCIMS, and similar sites you get a confirmation screenshot. On Greenhouse, Lever, Ashby, SmartRecruiters, and join.com you get a structured receipt with the ATS-side application ID. Either way, every application has a paper trail. If a run fails, you get a clear error code on the dashboard, not a "something went wrong" shrug.
