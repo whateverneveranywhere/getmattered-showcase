@@ -6,7 +6,7 @@
 
 **AI that actually gets your job.**
 
-The job market is rigged. The ATS kills your resume in 6 seconds, recruiters ghost, and the tools that promise to fix it either spam, hallucinate, or hide a $150 paywall. GetMattered is the cheat code: real per-job tailoring, real submissions on Greenhouse, Lever, Ashby, SmartRecruiters, and join.com via direct API, an AI browser agent for Workday, LinkedIn Easy Apply, iCIMS, and the long tail. Every submit gets a receipt or a screenshot. Tokens refund when the run isn't your fault.
+The job market is rigged. The ATS kills your resume in 6 seconds, recruiters ghost, and the tools that promise to fix it either spam, hallucinate, or hide a $150 paywall. GetMattered is the cheat code: real per-job tailoring, real submissions on Greenhouse, Lever, Ashby, SmartRecruiters, and join.com via direct API, an AI browser agent for Workday, LinkedIn Easy Apply, iCIMS, and the long tail. Every submit gets a receipt or a screenshot.
 
 [![Live](https://img.shields.io/badge/live-getmattered.com-orange)](https://getmattered.com)
 [![License](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
@@ -52,8 +52,7 @@ Application tracker (Teal Plus). ATS score (Jobscan $50). AI cover letters (Simp
 - [x] **List-view application tracker** - receipts list, not a kanban. Stages: Applied, Callback, Phone Screen, Interview, Offered, Rejected, No Response. Every row has the screener answers we submitted, the match score at the time, the proof screenshot or ATS receipt, and a clear failure reason if a run didn't complete
 - [x] **Submission proof on every apply** - browser-driven runs save a screenshot of the confirmation page. Direct-API runs save a structured receipt. Public anonymised wall at [/proof](https://getmattered.com/proof)
 - [x] **Public MCP server** - connect Claude Desktop, Claude Code, Cursor, or ChatGPT and use the tools directly in your AI client ([mcp.getmattered.com](https://mcp.getmattered.com))
-- [x] **Token refunds on non-user-fault failures** - if a run dies because the page was unreadable, the ATS was down, or bot detection blocked the session, tokens go back to your balance automatically
-- [x] **Per-session cost guard** - per-platform spend caps (Workday $1.50, Lever / Ashby $0.80, generic $1.00). Stuck sessions get killed before they bleed money
+- [x] **Per-session stop guard** - a run that stops making progress is ended before it loops. Stuck sessions never keep clicking
 - [x] **Anti-fabrication guardrails** - the system refuses to invent job titles, certifications, metrics, or skills not on your resume. If a JD demands something you don't have, the tailor flow surfaces it as a gap instead of forging it
 
 ---
@@ -85,7 +84,7 @@ Application tracker (Teal Plus). ATS score (Jobscan $50). AI cover letters (Simp
                         emails matched back to the application
 ```
 
-A bad auto-apply tool keeps clicking buttons in a loop until it submits something broken. A good one knows when to stop. GetMattered has a per-session cost guard, a stuck-loop fingerprint detector, an off-origin navigation guard, and a confirmation verifier that needs at least 2 of 3 success signals (URL change, success keyword, hidden CSRF state) before it marks an apply as sent.
+A bad auto-apply tool keeps clicking buttons in a loop until it submits something broken. A good one knows when to stop. GetMattered has a per-session stop guard, a stuck-loop fingerprint detector, an off-origin navigation guard, and a confirmation verifier that needs at least 2 of 3 success signals (URL change, success keyword, hidden CSRF state) before it marks an apply as sent.
 
 ---
 
@@ -100,8 +99,6 @@ Bill weekly or monthly. No annual plan, no per-application surcharge.
 | **Hired Yesterday** | $37.99 / week | $89.99 / month | about 184 / week, about 500 / month, plus Auto Apply on autopilot | 4.8M / week, 13M / month |
 
 Free also gets 5 resume rewrites, 5 cover letters and 20 interview preps a month, and unlimited job matching. Paid plans make resumes, letters and prep unlimited.
-
-Estimated cost per application at full use: about **$0.21** on weekly billing and about **$0.18** on monthly billing, on both plans.
 
 [Full pricing](https://getmattered.com/pricing)
 
@@ -140,7 +137,7 @@ Five competitors, real review data, no pricing-only swipes. Sources: Trustpilot,
 | **Proof of submission** | Screenshot + ATS receipt | No | N/A | N/A | No | N/A |
 | **LinkedIn ban risk** | Low (residential proxies, no script injection) | High (raw browser inside your session) | Low (autofill) | None | Lower (cloud agent) | None (autofill) |
 | **MCP / Claude Desktop** | Yes | No | No | No | No | No |
-| **Refund / billing trust** | Case-by-case, real human reviews | Trustpilot 2.4, refunds nearly impossible | No documented refund path | 7-day trial, denies refunds after day 2 | Duplicate billing complaints | Silent auto-renewal complaints |
+| **Refund / billing trust** | Written policy at getmattered.com/legal/refunds | Trustpilot 2.4, refunds nearly impossible | No documented refund path | 7-day trial, denies refunds after day 2 | Duplicate billing complaints | Silent auto-renewal complaints |
 
 ---
 

@@ -103,12 +103,12 @@ Excerpt from the dashboard for one user, one day on Hired in 30.
                             answered: $145,000 - $165,000 (from profile)
 2026-04-29 03:15:31 UTC  -  submit clicked, awaiting confirmation
 2026-04-29 03:15:38 UTC  -  confirmation verified (3 of 3 signals matched)
-2026-04-29 03:15:39 UTC  -  screenshot saved, cost $0.42, status: applied
+2026-04-29 03:15:39 UTC  -  screenshot saved, status: applied
 
-Daily total: 14 applies, $5.88, 0 failures, 0 stuck-loops, 0 captcha events
+Daily total: 14 applies, 0 failures, 0 stuck-loops, 0 captcha events
 ```
 
-The cost-per-apply hit $0.42 here vs the $0.39 budgeted average because this Greenhouse posting had 4 screener questions that needed LLM calls. Other applies in the same batch came in under $0.30.
+This Greenhouse posting had 4 screener questions, so it took one extra model call to answer them from the profile.
 
 ---
 

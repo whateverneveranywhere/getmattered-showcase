@@ -15,7 +15,7 @@ Yes. Free Job Seeker plan, no credit card. You get 10K starter tokens, 5 resume 
 Yes. One click. Access stays until the end of the week or month you already paid for. No retention call, no exit survey, no "are you sure" five times.
 
 ### How does usage work?
-Every AI action spends tokens from your balance. Free gets 10K starter tokens on signup. Hired in 30 refills 2.8M tokens a week on weekly billing or 5.6M a month on monthly billing. Hired Yesterday refills 4.8M a week or 13M a month. Failed runs that aren't your fault auto-refund the tokens. You only get charged for stuff that worked.
+Every AI action spends tokens from your balance. Free gets 10K starter tokens on signup. Hired in 30 refills 2.8M tokens a week on weekly billing or 5.6M a month on monthly billing. Hired Yesterday refills 4.8M a week or 13M a month. Preparation tokens are spent as the AI work runs and are never refunded, so a rejected, cancelled, failed or stopped application keeps what it spent.
 
 ### How many tokens does each action cost?
 Approximate cost per action (depends on job description length and model):
@@ -31,7 +31,7 @@ Unused tokens stay in your balance until the next refill. We bill at roughly 2x 
 Buy a one-time top-up from the sidebar or upgrade so the next refill resets your balance. There is no pay-as-you-go meter ticking in the background. You either top up or wait for the cycle, and you always know what the next bill looks like.
 
 ### Do you offer refunds?
-No blanket 30-day refund policy. If something legitimately broke on our side, email support and we'll fix it or refund the cycle. We do not have a script for hiding behind "all sales final" while the service is down. Token refunds on non-user-fault failures (page unreadable, ATS down, bot detection block) are automatic.
+Fees already charged are not refunded, because the AI and browser work is bought and run as soon as you use it. Where the mandatory law of the country you live in gives you rights that cannot be waived, those rights apply. Full policy: [getmattered.com/legal/refunds](https://getmattered.com/legal/refunds).
 
 ### Is there a contract?
 No. Weekly or monthly billing, cancel from the billing portal, no annual lock-in, no discount-for-soul-trade.
@@ -93,7 +93,7 @@ Same approach. We use Indeed's job search to find roles. When the original posti
 Because extension-based auto-apply is a bad architecture. It runs in your browser, on your machine, using your fingerprint, against ATS sites that ban accounts based on browser behavior. When LazyApply triggers a captcha loop on a Workday job, that loop is happening in your browser tab and getting fingerprinted to your LinkedIn account. We run submissions on our infrastructure with rotating residential IPs, captcha solvers, and per-platform pacing. Your browser never touches the ATS. This is also why we can answer screener questions without your laptop needing to stay open all night.
 
 ### What happens when an application hits a captcha or 2FA?
-Captchas (hCaptcha, reCAPTCHA, Turnstile) auto-solve in the background via Browserbase. You don't see them, the run keeps going. Two-factor codes and unfamiliar identity checks pause the run and email you a session live-view link so you can punch in the code. Persistent bot-detection challenges (DataDome, PerimeterX) are classified as blocked, the session is killed, and your tokens get refunded. We do not waste your tokens on a fight we can't win.
+Captchas (hCaptcha, reCAPTCHA, Turnstile) auto-solve in the background via Browserbase. You don't see them, the run keeps going. Two-factor codes and unfamiliar identity checks pause the run and email you a session live-view link so you can punch in the code. Persistent bot-detection challenges (DataDome, PerimeterX) are classified as blocked and the session stops there, so it does not keep spending tokens on a fight we can't win.
 
 ### How is this different from mass-apply bots?
 Mass-apply bots (LazyApply, JobCopilot in spam mode) blast the same resume at 100+ jobs a day. Your last 200 applications didn't fail because your resume is bad. They failed because the ATS rejected you in 6 seconds and a recruiter never saw the file. GetMattered scores your resume against each job before applying. If you're below the threshold, we tell you instead of burning a token on a job you have no shot at. When we do apply, the resume is tailored to that specific JD and the screener questions are answered in your voice. This is why response rates exist at all.

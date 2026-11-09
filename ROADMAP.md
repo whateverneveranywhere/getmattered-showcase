@@ -10,7 +10,7 @@ This is the public-facing roadmap. For bug reports and feature requests see [CON
 
 - **Public submission wall** at [/proof](https://getmattered.com/proof). Browser-driven submissions get a proof screenshot, direct-API submissions (Greenhouse, Lever, Ashby, SmartRecruiters, join.com) get a structured submission receipt. All entries are anonymised at the SQL level (no user ID, no company, no job URL leak), then streamed to a public page. First competitor doing this.
 - **Public MCP server** at mcp.getmattered.com. ATS scoring, job analysis, cover letter generation, auto-apply, resume translation, all callable from Claude Desktop / Claude Code / Cursor.
-- **Cost-aware auto-apply guards**. Per-session cost ceiling that's progress-aware (kills only when cost > soft ceiling AND 3+ consecutive zero-progress steps), per-platform soft caps (Workday $1.50, Lever $0.80, generic $1.00), absolute hard cap at 2x soft. Replaced flat $0.50 ceiling that was killing legitimate runs mid-fill.
+- **Progress-aware auto-apply guards**. A run is stopped only when it stops making progress, so slow but healthy forms finish instead of being cut off mid-fill.
 - **Stuck-loop fingerprint detector**. Auto-apply agent now recognizes when it's clicking the same button in a loop and bails with a clean error code instead of burning tokens.
 - **Confirmation verifier**. Every successful submit needs at least 2 of 3 success signals (URL change, success keyword, hidden CSRF state) before it counts as sent. No more false positives.
 - **Off-origin navigation guard**. Agent refuses to submit on a domain that wasn't the original ATS. Stops aggregator redirects from being mis-counted as applies.
